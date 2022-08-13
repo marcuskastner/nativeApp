@@ -7,7 +7,7 @@
 * [Setup](#setup)
 
 ## General info
-I was interested in learning how react native differed from vanilla react so I watched a tutorial to implement the UI. However, I extended the project by connecting to Firebase Auth API.
+This is a react native marketplace app. Furthermore, the app is integrated with Firebase Auth service to handle secure client login. Similarly to my other projects this required me to read through documentation and solve my own problems as they arise. I think this project shows I am interested in many different types of front end technologies and am constatly pushing myself to learn more.
 
 ## Technologies
 Project is created with:
@@ -19,7 +19,7 @@ Project is created with:
 * Firebase
 
 ## What I Learned
-I really enjoyed learning the difference between React and React Native. Also going through the documentation to implement Firebase API.
+It was interesting to learn how react native developement differs from react in terms of components and styling. I am excited to continue learning native developement and the unique and interesting possibilities it opens for useful applications to improve users lives.
 
 
 	
