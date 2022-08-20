@@ -7,7 +7,7 @@
 * [Setup](#setup)
 
 ## General info
-This is a react native marketplace app. Furthermore, the app is integrated with Firebase Auth service to handle secure client login. Similarly to my other projects this required me to read through documentation and solve my own problems as they arise. I think this project shows I am interested in many different types of front end technologies and am constatly pushing myself to learn more.
+This is a react native marketplace app. Furthermore, the app is integrated with Firebase Auth service to handle secure client login. Similar to my other projects, this required me to read through the documentation and solve my own problems as they arise. I think this project shows I am interested in many different types of front-end technologies and am constantly pushing myself to learn more.
 
 ## Technologies
 Project is created with:
