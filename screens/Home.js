@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   View,
   SafeAreaView,
@@ -6,15 +6,15 @@ import {
   StyleSheet,
   TouchableOpacity,
   Text,
-} from 'react-native';
+} from "react-native";
 
-import { COLORS, NFTData } from '../constants';
+import { COLORS, NFTData } from "../constants";
 
-import { NFTCard, HomeHeader, FocusedStatusBar } from '../components';
-import { useNavigation } from '@react-navigation/native';
+import { NFTCard, HomeHeader, FocusedStatusBar } from "../components";
+import { useNavigation } from "@react-navigation/native";
 
-import { auth } from '../api/firebase';
-import { signOut } from 'firebase/auth';
+import { auth } from "../api/firebase";
+import { signOut } from "firebase/auth";
 
 const Home = () => {
   const navigation = useNavigation();
@@ -22,7 +22,7 @@ const Home = () => {
   const handleSignOut = () => {
     signOut(auth)
       .then(() => {
-        navigation.navigate('Login');
+        navigation.navigate("Login");
       })
       .catch((error) => {
         // An error happened.
@@ -59,7 +59,7 @@ const Home = () => {
         </View>
         <View
           style={{
-            position: 'absolute',
+            position: "absolute",
             top: 0,
             bottom: 0,
             right: 0,
@@ -72,12 +72,12 @@ const Home = () => {
         </View>
       </View>
 
-      <View style={styles.buttonContainer}>
-        <Text>{auth?.currentUser.email}</Text>
-        <TouchableOpacity onPress={handleSignOut} style={styles.button}>
+      {/* <View style={styles.buttonContainer}>
+        <Text>test@email.com</Text>
+        <TouchableOpacity style={styles.button}>
           <Text style={styles.buttonText}>Sign Out</Text>
         </TouchableOpacity>
-      </View>
+      </View> */}
     </SafeAreaView>
   );
 };
@@ -86,20 +86,20 @@ export default Home;
 
 const styles = StyleSheet.create({
   buttonContainer: {
-    alignItems: 'center',
+    alignItems: "center",
     paddingVertical: 5,
   },
   button: {
-    backgroundColor: '#0782f9',
-    width: '100%',
+    backgroundColor: "#0782f9",
+    width: "100%",
     padding: 15,
     borderRadius: 10,
-    alignItems: 'center',
-    width: '80%',
+    alignItems: "center",
+    width: "80%",
   },
   buttonText: {
-    color: 'white',
-    fontWeight: '700',
+    color: "white",
+    fontWeight: "700",
     fontSize: 16,
   },
 });
