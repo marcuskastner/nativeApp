@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.js": "/static/js/main.1d246440.js",
+    "static/js/773.ff2dbbb5.js": "/static/js/773.ff2dbbb5.js",
+    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.a73db89c43e44ca8f5e0.ttf",
+    "static/media/Inter-SemiBold.ttf": "/static/media/Inter-SemiBold.45b4c2ae493bb481102f.ttf",
+    "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.e7231ba33760832432b8.ttf",
+    "static/media/Inter-Light.ttf": "/static/media/Inter-Light.58a136ec3193fa8a63e5.ttf",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.2391725004ae05a27e8e.ttf",
+    "static/media/nft02.jpeg": "/static/media/nft02.27af143fa66943ef9bc7.jpeg",
+    "static/media/nft01.png": "/static/media/nft01.336f8b04130d47432654.png",
+    "static/media/nft03.jpeg": "/static/media/nft03.c3cad127ca2b878a3662.jpeg",
+    "static/media/nft07.jpeg": "/static/media/nft07.079f573a09b6b2579d15.jpeg",
+    "static/media/nft04.jpeg": "/static/media/nft04.16659c4d145695ddfa0e.jpeg",
+    "static/media/nft05.jpeg": "/static/media/nft05.573a38606cdc322b6f7a.jpeg",
+    "static/media/nft06.jpeg": "/static/media/nft06.55f38b7a9a32bf737de7.jpeg",
+    "favicon.ico": "/favicon.ico",
+    "static/media/person02.png": "/static/media/person02.f95ac1bf1eea31da5873.png",
+    "static/media/person01.png": "/static/media/person01.a96901b8ed3b890cd2f6.png",
+    "static/media/person03.png": "/static/media/person03.8d7d6af27379f2342e1d.png",
+    "static/media/person04.png": "/static/media/person04.bd64d8cb5f0ae0d3799b.png",
+    "index.html": "/index.html",
+    "static/media/logo.png": "/static/media/logo.b2a48ee11f8dd2cff331.png",
+    "favicon-32.png": "/favicon-32.png",
+    "favicon-16.png": "/favicon-16.png",
+    "serve.json": "/serve.json",
+    "manifest.json": "/manifest.json",
+    "main.1d246440.js.map": "/static/js/main.1d246440.js.map",
+    "773.ff2dbbb5.js.map": "/static/js/773.ff2dbbb5.js.map"
+  },
+  "entrypoints": [
+    "static/js/773.ff2dbbb5.js",
+    "static/js/main.1d246440.js"
+  ]
+}
